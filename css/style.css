@@ -1,0 +1,27 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* Commont Style Utilitis */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo design  */
+.logo{
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 48px;
+    width: 151px;
+    height: 101;
+}
+#navigation li a{
+    font-weight: 500;
+    font-size: 24px;
+    color:#957554;
+}
