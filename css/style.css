@@ -203,3 +203,17 @@ body{
 .room-image:hover .room-details{
     display: block;
 }
+
+.booking-button-div{
+    position: relative;
+    top: -90px;
+}
+.book-btn{
+    margin-top: 38px;
+    padding: 12px 80px;
+    color: #fff;
+    background-color:#DFAA5B;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
