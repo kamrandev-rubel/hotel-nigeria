@@ -57,10 +57,14 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+.hotel-booking{
+    display: flex;
+}
 .hotel-booking select{
+    outline: none;
     width: 192px;
     height: 60px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 2px solid #DFAA5B;
     background-color: #fff;
     margin-right: 13px;
@@ -68,9 +72,18 @@ body{
 .hotel-booking input {
     outline: none;
     padding: 15px 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: 2px solid #DFAA5B;
     width: 192px;
     height: 60px;
     margin-right: 13px;
+}
+.hotel-booking p{
+    background-color:#DFAA5B;
+;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: 2px solid #DFAA5B;
+    width: 192px;
+    height: 60px;
 }
