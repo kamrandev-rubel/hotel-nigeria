@@ -25,3 +25,52 @@ body{
     font-size: 24px;
     color:#957554;
 }
+.search-icon{
+    font-size: 30px;
+}
+.search-field{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 20px;
+}
+.input-field{
+    outline: 0;
+    border: 3px solid #DFAA5B;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    display: none;
+}
+#check-box:checked ~ .input-field{
+    display: block;       
+}
+.booking-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    height: 119px;
+    justify-content: center;
+    color: #fff; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.hotel-booking select{
+    width: 192px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #DFAA5B;
+    background-color: #fff;
+    margin-right: 13px;
+}
+.hotel-booking input {
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 20px;
+    border: 2px solid #DFAA5B;
+    width: 192px;
+    height: 60px;
+    margin-right: 13px;
+}
