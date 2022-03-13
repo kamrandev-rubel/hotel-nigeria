@@ -155,3 +155,25 @@ body{
     color: #957554;
     font-size: 24px;
 }
+
+/* room style  */
+.room-container{
+    padding: 60px;
+}
+.room-title{
+    text-align: center;
+    color: #957554;
+    font-size: 45px;
+    font-weight: 500px;
+    padding-top: 12px;
+    margin-bottom: 60px;
+}
+.room{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 15px;
+    padding: 20px;
+}
+.room img{
+    width: 100%;
+}
