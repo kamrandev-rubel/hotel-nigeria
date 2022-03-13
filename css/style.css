@@ -159,6 +159,8 @@ body{
 /* room style  */
 .room-container{
     padding: 60px;
+    top: -138px;
+    position: relative;
 }
 .room-title{
     text-align: center;
@@ -176,4 +178,28 @@ body{
 }
 .room img{
     width: 100%;
+}
+.room-image{   
+    position: relative;
+}
+.room-details{
+    position: absolute;
+    color: #fff;
+    left: 160px;
+    bottom: 20%;
+    text-align: center;
+    display: none;
+}
+.details-btn{
+    text-align: center;
+    padding: 12px 40px;
+    color: #fff;
+    background-color:#DFAA5B;
+    border-radius: 12px;
+    margin-top: 34px;
+    border: none;
+    outline: none;
+}
+.room-image:hover .room-details{
+    display: block;
 }
