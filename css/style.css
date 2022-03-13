@@ -46,6 +46,8 @@ body{
 #check-box:checked ~ .input-field{
     display: block;       
 }
+
+/* style booking start  */
 .booking-container{
     width: 100%;
     display: flex;
@@ -68,6 +70,7 @@ body{
     border: 2px solid #DFAA5B;
     background-color: #fff;
     margin-right: 13px;
+
 }
 .hotel-booking input {
     outline: none;
@@ -80,10 +83,41 @@ body{
 }
 .hotel-booking p{
     background-color:#DFAA5B;
-;
     padding: 15px 10px;
     border-radius: 10px;
     border: 2px solid #DFAA5B;
     width: 192px;
     height: 60px;
+}
+
+/* Banner Start  */
+.banner{
+    background: url('../images/banner.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.banner h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.banner .explore-btn{
+    padding: 12px 80px;
+    color: #fff;
+    background-color:#DFAA5B;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+;
 }
